@@ -15,7 +15,7 @@ $ git remote add origin ______
 - 원격저장소 설정을 삭제하는 명령어는 다음과 같다.
 
   ```bash
-  $ git remote rm origin ______
+  $ git remote rm origin
   ```
 
 ## 2. 원격 저장소 확인하기
