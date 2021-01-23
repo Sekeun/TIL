@@ -43,7 +43,7 @@ $ git init
 
 - git 저장소로 활용하기 위해서는 위의 명령어를 활용한다.
   - .git 폴더가 생성
-  - (master) 로 현재 작업중인 브랜치 확인
+  - `git status`로 현재 작업중인 브랜치 확인 (master) 
 
 ### 1.  add
 
@@ -59,7 +59,7 @@ $ git add md-images/ 	# 특정 폴더
 * 실습
 
 ```bash
-$ touch text.text
+$ touch text.txt
 ```
 
 - add 전 모습
@@ -85,7 +85,7 @@ add"를 사용하십시오)
 - add 후 모습
 
 ```bash
-$ git add.
+$ git add .
 $ git status
 현재 브랜치 master
 
@@ -130,7 +130,7 @@ b172e72 (HEAD -> master) 커밋 메시지
 $ git log --oneline -l
 ```
 
-## 3. 상태 확인
+### 3. 상태 확인
 
 > git 저장소의 현재 상태는 status로 확인하는 습관을 가지자.
 

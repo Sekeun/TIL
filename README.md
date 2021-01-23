@@ -4,7 +4,8 @@
 
 ## 내용
 
-[git](./git)
+- [git](./git)
+- [python](./python)
 
 ### 기타
 

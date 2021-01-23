@@ -10,7 +10,7 @@
 $ git remote add origin ______
 ```
 
-- 깃아, 원격저장소를 추가해줘. (add) origin이라는 이름으로 URL을!!
+- **git아, 원격저장소를 추가해줘. origin이라는 이름으로 URL을!!**
 
 - 원격저장소 설정을 삭제하는 명령어는 다음과 같다.
 
@@ -48,5 +48,5 @@ Everything up-to-date
 - 원격 저장소를 복제함
 
   ```bash
-  $ git clone ___
+  $ git clone ______
   ```

@@ -11,4 +11,5 @@ $ git status
     - `modified`
       - `modified` / `deleted`
     - `unmodified`
-      - 수정 X => git status에 등장하지 안ㄴㅎ음
+      - 수정 X => git status에 등장하지 않음
+
