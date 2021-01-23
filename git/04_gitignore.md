@@ -7,9 +7,9 @@
 
 ```bash
 data.csv			# 특정 파일
-*.png					# 특정 확장자
+*.png				# 특정 확장자
 secret/				# 특정 폴더
-!profile.png	# 모든 png파일은 빼고, profile.png는 넣고!
+!profile.png	    # 모든 png파일은 빼고, profile.png는 넣고!
 ```
 
 - OS(window/mac), 개발환경(IDE, text editor), 특정 언어에서 발생하는 파일/폴더들
