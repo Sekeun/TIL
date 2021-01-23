@@ -1,9 +1,6 @@
 # 개요
 
 ---
-
-<img src="md-images/%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB-20210104190850462.png" alt="post-thumbnail" style="zoom:50%;" />
-
 ## 특징
 
 - 인터프리터 언어 (스크립트 언어)

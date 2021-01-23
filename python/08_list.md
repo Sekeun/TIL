@@ -132,14 +132,14 @@ a
 
 ```python
 scores = [10, 20, 30, 40]
-values = scores			# 원본 보관
+values = scores         # 원본 보관
 
-values[0] = 100			# 복사본 리스트의 요소값 변경
+values[0] = 100         # 복사본 리스트의 요소값 변경
 
 print(values)
 [100, 20, 30, 40]
-print(scores)				# 원본 값도 함께 변경
-[100, 20, 30, 40]		# 실체 보관이 아닌 주소를 복사한 것
+print(scores)           # 원본 값도 함께 변경
+[100, 20, 30, 40]       # 실체 보관이 아닌 주소를 복사한 것
 ```
 
 ### 깊은 복사 (deep copy)
@@ -302,7 +302,7 @@ print(a)
 
     ```python
     x = ['a', 'b', 'c', 'd']
-    y = x.pop()		#	마지막 요소를 반환하기 때문에 그 값을 변수에 저장
+    y = x.pop()     # 마지막 요소를 반환하기 때문에 그 값을 변수에 저장
     print(y)
     d
     print(x)
@@ -326,12 +326,12 @@ print(a)
 
 ```python
 scores = [90, 78, 87, 65, 77]
-scores.sort()						#	기본 오름차순 정렬
+scores.sort()           # 기본 오름차순 정렬
 print(scores)
 [65, 77, 78, 87, 90]
 
 scores = [90, 78, 87, 65, 77]
-scores.sort(reverse)		#	내림차순 정렬
+scores.sort(reverse)    # 내림차순 정렬
 print(scores)
 [90, 87, 78, 77, 65]
 ```
@@ -359,7 +359,7 @@ print(char)
 
 ```python
 scores = [90, 78, 81, 64, 89]
-scores.reverse()				# 내림차순 정렬
+scores.reverse()        # 내림차순 정렬
 print(scores)
 [90, 89, 81, 78, 64]
 ```
@@ -410,9 +410,9 @@ print("만점자 수는"+str(pernum)+"번입니다.")
 
 ```python
 score = [88, 95, 70, 100, 99, 70]
-print("학생 수는 %d명 입니다." %len(score))				# 리스트의 길이 조사
-print("최고 점수는 %d점 입니다." %max(score))			# 리스트의 요소 중 최댓값 반환
-print("최저 점수는 %d점 입니다." %min(score))			# 리스트의 요소 중 최솟값 반환
+print("학생 수는 %d명 입니다." %len(score))     # 리스트의 길이 조사
+print("최고 점수는 %d점 입니다." %max(score))    # 리스트의 요소 중 최댓값 반환
+print("최저 점수는 %d점 입니다." %min(score))    # 리스트의 요소 중 최솟값 반환
 학생 수는 6명 입니다.
 최고 점수는 100점 입니다.
 최저 점수는 70점 입니다.

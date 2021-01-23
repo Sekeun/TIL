@@ -34,7 +34,7 @@
       print("학번: %s"% no)
       print("학년: %d"% year)
       print("학점: %c"% grade)
-      print("평균: %.2f"% average)			# % 와 f 사이에 '.n'으로 소숫점 자리 조절
+      print("평균: %.2f"% average)        # % 와 f 사이에 '.n'으로 소숫점 자리 조절
       성명: 홍길동
       학번: 2016001
       학년: 4
@@ -54,11 +54,11 @@
 ```python
 x = 10
 print(x)
-10								# 변수가 참조하는 주소를 찾아가 저장된 값을 출력
+10                  # 변수가 참조하는 주소를 찾아가 저장된 값을 출력
 id(x)
-140390483237456		# 변수가 참조하는 주소를 출력
+140390483237456     # 변수가 참조하는 주소를 출력
 type(x)
-<class 'int'>			# 변수의 형태를 출력
+<class 'int'>       # 변수의 형태를 출력
 ```
 
 ## 2. 특징
@@ -97,13 +97,13 @@ result = 10
 - 여러개의 변수에 여러개의 값을 저장
 
 ```python
-a, b, c, d = 1, 2, 3, 4		# 왼쪽 항의 변수의 개수와 오른쪽 항의 변수의 개수가 일치해야 함
+a, b, c, d = 1, 2, 3, 4     # 왼쪽 항의 변수의 개수와 오른쪽 항의 변수의 개수가 일치해야 함
 ```
 
 - 여러개의 변수에 동일한 한 개의 값을 저장
 
 ```python
-a = b = c = 10			# 변수1 = 변수2 = 변수3 = 값
+a = b = c = 10          # 변수1 = 변수2 = 변수3 = 값
 print(a)
 10
 print(b)
@@ -118,7 +118,7 @@ print(c)
 
 ```python
 a, b = 10, 20
-a, b = b, a		# a 변수에 있는 값을 b 변수에 저장, b 변수에 있는 값을 a 변수에 저장
+a, b = b, a     # a 변수에 있는 값을 b 변수에 저장, b 변수에 있는 값을 a 변수에 저장
 print(a, b)
 20 10
 ```
@@ -126,12 +126,12 @@ print(a, b)
 - 변수 삭제
 
 ```python
-del a		# del 명령어 사용
+del a       # del 명령어 사용
 a
 Traceback (most recent call last):
   File "<pyshell#16>", line 1, in <module>
     a
-NameError: name 'a' is not defined		# 삭제 성공
+NameError: name 'a' is not defined      # 삭제 성공
 ```
 
 ## 5. 문자열 저장 변수
@@ -157,7 +157,7 @@ Traceback (most recent call last):
   File "<pyshell#25>", line 1, in <module>
     print("저는 " + age + "살 입니다.")
 TypeError: can only concatenate str (not "int") to str
-  # age는 정수 type. 문자열끼리만 연결 가능.
+# age는 정수 type. 문자열끼리만 연결 가능.
 ```
 
 - 형변환
@@ -198,7 +198,7 @@ TypeError: can only concatenate str (not "int") to str
 - 나중에 상수의 값을 변경해도 오류가 없음
 
 ```python
-PI = 3.141592		# 개발자가 임의로 구성한 상수
+PI = 3.141592       # 개발자가 임의로 구성한 상수
 
 r = 10
 area = r*r*PI
@@ -207,7 +207,7 @@ print(area)
 ```
 
 ```python
-INT_RATE = 0.03		# 개발자가 임의로 구성한 상수
+INT_RATE = 0.03     # 개발자가 임의로 구성한 상수
 
 deposit = 10000
 interst = deposit * INT_RATE

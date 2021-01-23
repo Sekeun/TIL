@@ -40,8 +40,8 @@
 
   ```python
   a = 100
-  type(a)		# class int
+  type(a)       # class int
   
   a = 'hello'
-  type(a)		# class str
+  type(a)       # class str
   ```

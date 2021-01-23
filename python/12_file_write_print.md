@@ -28,7 +28,7 @@
   - 이미 존재하는 경우 덮어 씀 (기존 내용 삭제)
 
 ```python
-f = open("new.txt", 'w')	# f: 포인터 역할
+f = open("new.txt", 'w')    # f: 포인터 역할
 # 파일 객체 = open(파일명, 파일 열기 모드)
 
 f = open('./file.txt', 'w')	

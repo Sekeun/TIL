@@ -33,17 +33,17 @@ t4 = ('a','b', 'c', ('ab', 'cd'))
 ```python
 tu = 1, 2, 3, 4, 5
 
-print(tu[3])				# 가능 - 튜플 인덱싱
+print(tu[3])                # 가능 - 튜플 인덱싱
 4
-print(tu[1:3])			# 가능 - 튜플 슬라이싱
+print(tu[1:3])              # 가능 - 튜플 슬라이싱
 (2, 3, 4)
 print(tu + (6, 7))	# 가능 - 튜플 더하기: 튜플끼리 연결
 (1, 2, 3, 4, 5, 6, 7)
-print(tu * 2)				# 가능 - 튜플 곱하기: 튜플의 요소 반복
+print(tu * 2)               # 가능 - 튜플 곱하기: 튜플의 요소 반복
 (1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
-tu[1] = 100					# 불가능 - 튜플의 요소 변경
+tu[1] = 100                 # 불가능 - 튜플의 요소 변경
 TypeError: 'tuple' object does not support item assignment
-del tu[1]						# 불가능 - 튜플의 요소 삭제
+del tu[1]                   # 불가능 - 튜플의 요소 삭제
 TypeError: 'tuple' object doesn't support item deletion
 ```
 
