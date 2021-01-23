@@ -50,10 +50,10 @@ $ git init
 > 커밋을 위한 파일 목록(staging area)
 
 ```bash
-$ git add .					# 현재 디렉토리
-$ git add a.txt				# 특정 파일
-$ git add a.txt b.txt       # 여러 파일
-$ git add md-images/ 	    # 특정 폴더
+$ git add .             # 현재 디렉토리
+$ git add a.txt         # 특정 파일
+$ git add a.txt b.txt   # 여러 파일
+$ git add md-images/    # 특정 폴더
 ```
 
 * 실습
